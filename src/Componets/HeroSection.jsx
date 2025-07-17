@@ -17,8 +17,10 @@ export const HeroSection = () => {
                         <span className="text-foreground">.</span>
                     </h2>
                     <p className="text-2xl md:text-3xl text-foreground/80 max-w-xl opacity-0 animate-fade-in delay-3">
-                        I'm a passionate developer with a love for creating amazing web experiences and designs.<br />
-                        Explore my projects and get to know me better!
+                        A passionate web developer with a knack for creating
+                        beautiful and functional websites. I love turning ideas into
+                        reality through code.    
+
                     </p>
                     <div className="pt-6 opacity-0 animate-fade-in delay-4">
                         <a
@@ -42,10 +44,13 @@ export const HeroSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
+            <a
+                href="#projects"
+                className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce cursor-pointer"
+            >
                 <span className="text-md text-muted-foreground mb-1">Scroll Down</span>
-                <ArrowDown className="w-8 h-4 text-primary" />
-            </div>
+                <ArrowDown className="w-4 h-4 text-primary" />
+            </a>
         </section>
     )
 };

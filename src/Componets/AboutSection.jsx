@@ -16,7 +16,7 @@ export const AboutSection = () => {
                             A Passionate Frontend Developer
                         </h3>
                         <p className="text-muted-foreground">
-                            With a strong foundation in HTML, CSS, and JavaScript, React,
+                            With a strong foundation in HTML, CSS, and JavaScript, ReactJS,
                             I enjoy turning ideas into reality through code.
                             My goal is to create user-friendly interfaces
                             that not only look great but also provide seamless functionality.

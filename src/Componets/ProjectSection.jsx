@@ -30,7 +30,7 @@ const projects = [
      The website is built using React and Tailwind CSS, ensuring a responsive and modern design.`,
     image: "/Projects/Screenshot 2025-07-17 231635.png",
     tags: ["React JS", "Tailwind CSS"],
-    link: ""
+    link: "https://github.com/Shrutikarmakar1804/portfolio.git"
   },
 
   {
@@ -102,7 +102,7 @@ export const ProjectSection = () => {
         </div>
             <div className="text-center mt-12">
               <a className="cosmic-button w-fit items-center mx-auto gap-2 text-sm" 
-              href="https://github.com/Logan-Wolverine2309" target="_blank" rel="noopener noreferrer">
+              href="https://github.com/Shrutikarmakar1804" target="_blank" rel="noopener noreferrer">
                 Check My Github<ArrowRight size={20} className="inline ml-2" />
               </a>
 

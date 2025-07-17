@@ -12,6 +12,7 @@ const skills = [
 
     // Web Backend Skills
     { name: "Node.js", level: 70, category: "backend", system: "web" },
+    { name: "Spring Boot", level: 50, category: "backend", system: "web" },
     
 
     // Database Skills
@@ -21,6 +22,7 @@ const skills = [
 
     // Design
     { name: "UI/UX Design", level: 70, category: "design", system: "web" },
+
 
 
     // Development Tools
